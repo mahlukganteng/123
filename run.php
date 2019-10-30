@@ -12,9 +12,9 @@ include ("function.php");
 
 echo "\e[96m   ==============================================================\n";
 echo "\e[96m  |  Auto Create Gojek X Redeem Gofood 20k X Redeem Goride 10k   |\n";
-echo "\e[96m  |  Thanks To   : Janu Yoga X Osyduck X Echo Krisna             |\n";
-echo "\e[96m  |  Recode By   : Diffa MR                                      |\n";
-echo "\e[96m  |  Timezone    : ".date('d-m-Y H:i:s')."                           |\n";
+echo "\e[96m  |  Thanks To   : Mahlukg Ganteng                               |\n";
+echo "\e[96m  |  Recode By   : Mahlukganteng.com                             |\n";
+echo "\e[96m  |  Timezone    : ".date('d-m-Y H:i:s')."                       |\n";
 echo "\e[96m  |  Information : Input Nomor Untuk Indo 08 dan US 1 Tanpa +    |\n";
 echo "\e[96m   =========================== Script V.4 =======================\n\n";
 
