@@ -102,7 +102,7 @@ if ($register == false)
             else{
                 echo "\e[96m[+] ".$claim."\n";
                 sleep(3);
-                echo "\e[96m[!] Trying to redeem Voucher : AYOCOBAGOJEK !\n";
+                echo "\e[96m[!] Trying to redeem Voucher : UNTUKMU !\n";
                 sleep(3);
                 goto jajan;
             }
