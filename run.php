@@ -11,11 +11,10 @@ include ("function.php");
 
 
 echo "\e[96m   ==============================================================\n";
-echo "\e[96m  |  Auto Create Gojek X Redeem Gofood 20k X Redeem Goride 10k   |\n";
-echo "\e[96m  |  Thanks To   : Mahlukg Ganteng                               |\n";
-echo "\e[96m  |  Recode By   : Mahlukganteng.com                             |\n";
+echo "\e[96m  |  Memru Gojek De + Redem Voucher                              |\n";
+echo "\e[96m  |  Source      : Mahlukganteng.com                             |\n";
 echo "\e[96m  |  Timezone    : ".date('d-m-Y H:i:s')."                       |\n";
-echo "\e[96m  |  Information : Input Nomor Untuk Indo 08 dan US 1 Tanpa +    |\n";
+echo "\e[96m  |  Input Awalan Nomor +62 .....                                |\n";
 echo "\e[96m   =========================== Script V.4 =======================\n\n";
 
 echo "\e[96m[?] Nomor ? : ";
