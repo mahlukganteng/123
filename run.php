@@ -10,12 +10,12 @@ include ("function.php");
 
 
 
-echo "\e[96m   ========================================================\n";
+echo "\e[96m   ============================================\n";
 echo "\e[96m  |  Memru Gojek De + Redem Voucher            |\n";
 echo "\e[96m  |  Source      : Mahlukganteng.com           |\n";
 echo "\e[96m  |  Tanggal     : ".date('d-m-Y H:i:s')."     |\n";
 echo "\e[96m  |  Input Awalan Nomor 62 .....               |\n";
-echo "\e[96m   =========================== Script xi.2019 =============\n\n";
+echo "\e[96m   ============  Script xi.2019  ==============\n\n";
 
 echo "\e[96m[?] Nomor ? : ";
 $nope = trim(fgets(STDIN));
@@ -101,7 +101,7 @@ if ($register == false)
             else{
                 echo "\e[96m[+] ".$claim."\n";
                 sleep(3);
-                echo "\e[96m[!] Mencoba redeem Voucher : UNTUKMU !\n";
+                echo "\e[96m[!] Mencoba redeem Voucher : AYOCOBAGOJEK !\n";
                 sleep(3);
                 goto jajan;
             }
