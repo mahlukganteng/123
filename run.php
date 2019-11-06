@@ -10,12 +10,12 @@ include ("function.php");
 
 
 
-echo "\e[96m   ==============================================================\n";
-echo "\e[96m  |  Memru Gojek De + Redem Voucher                              |\n";
-echo "\e[96m  |  Source      : Mahlukganteng.com                             |\n";
-echo "\e[96m  |  Timezone    : ".date('d-m-Y H:i:s')."                       |\n";
-echo "\e[96m  |  Input Awalan Nomor +62 .....                                |\n";
-echo "\e[96m   =========================== Script V.4 =======================\n\n";
+echo "\e[96m   ========================================================\n";
+echo "\e[96m  |  Memru Gojek De + Redem Voucher            |\n";
+echo "\e[96m  |  Source      : Mahlukganteng.com           |\n";
+echo "\e[96m  |  Tanggal     : ".date('d-m-Y H:i:s')."     |\n";
+echo "\e[96m  |  Input Awalan Nomor 62 .....               |\n";
+echo "\e[96m   =========================== Script xi.2019 =============\n\n";
 
 echo "\e[96m[?] Nomor ? : ";
 $nope = trim(fgets(STDIN));
@@ -38,21 +38,21 @@ if ($register == false)
       else
         {
         file_put_contents("token/".$verif['data']['customer']['name'].".txt", $verif['data']['access_token']);
-        echo "\e[96m[!] Trying to redeem Voucher : GOFOODBOBA07 !\n";
+        echo "\e[96m[!] Mencobam Voucher : GOFOODBOBA07 !\n";
         sleep(3);
         $claim = claim($verif);
         if ($claim == false)
             {
             echo "\e[96m[!]".$voucher."\n";
             sleep(3);
-            echo "\e[96m[!] Trying to redeem Voucher : GOFOODBOBA10 !\n";
+            echo "\e[96m[!] Mencoba redeem Voucher : GOFOODBOBA10 !\n";
             sleep(3);
             goto next;
             }
             else{
                 echo "\e[96m[+] ".$claim."\n";
                 sleep(3);
-                echo "\e[96m[!] Trying to redeem Voucher : COBAINGOJEK !\n";
+                echo "\e[96m[!] Mencoba redeem Voucher : COBAINGOJEK !\n";
                 sleep(3);
                 goto ride;
             }
@@ -61,14 +61,14 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[96m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[96m[!] Trying to redeem Voucher : GOFOODBOBA19 !\n";
+                echo "\e[96m[!] Mencoba redeem Voucher : GOFOODBOBA19 !\n";
                 sleep(3);
                 goto next1;
             }
             else{
                 echo "\e[96m[+] ".$claim."\n";
                 sleep(3);
-                echo "\e[96m[!] Trying to redeem Voucher : COBAINGOJEK !\n";
+                echo "\e[96m[!] Mencoba redeem Voucher : COBAINGOJEK !\n";
                 sleep(3);
                 goto ride;
             }
@@ -77,7 +77,7 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[96m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[96m[!] Trying to redeem Voucher : COBAINGOJEK !\n";
+                echo "\e[96m[!] Mencoba Redeem Voucher : COBAINGOJEK !\n";
                 sleep(3);
                 goto ride;
             }
@@ -85,7 +85,7 @@ if ($register == false)
             {
             echo "\e[96m[+] ".$claim . "\n";
             sleep(3);
-            echo "\e[96m[!] Trying to redeem Voucher : COBAINGOJEK !\n";
+            echo "\e[96m[!] Mencoba redeem Voucher : COBAINGOJEK !\n";
             sleep(3);
             goto ride;
             }
@@ -94,21 +94,21 @@ if ($register == false)
             if ($claim == false ) {
                 echo "\e[96m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[96m[!] Trying to redeem Voucher : AYOCOBAGOJEK !\n";
+                echo "\e[96m[!] Mencoba redeem Voucher : AYOCOBAGOJEK !\n";
                 sleep(3);
 
             }
             else{
                 echo "\e[96m[+] ".$claim."\n";
                 sleep(3);
-                echo "\e[96m[!] Trying to redeem Voucher : UNTUKMU !\n";
+                echo "\e[96m[!] Mencoba redeem Voucher : UNTUKMU !\n";
                 sleep(3);
                 goto jajan;
             }
             jajan:
             $claim = ayocoba($verif);
             if ($claim == false ) {
-                echo "\033[!] Gagal Redeem Dher\n";
+                echo "\033[!] Gagal Redeem Bro...\n";
             }
             else{
                 echo "\e[96m[+] ".$claim."\n";
